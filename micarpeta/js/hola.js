@@ -19,6 +19,11 @@ alert("el resultado de la resta" + resta);
 
 function hace_operaciones(val_1,val_2){
 		this.val_1 = 0;
-		this.val_2 = 2;
+		this.val_2 = 2;		
+		if(val_1 == null){
+					alert("los valores vienen vacios");
+		}else{
+			alert(val_1 + val_2);
+		}	
 		alert(this.val_1+this.val_2);
 }
